@@ -31,36 +31,19 @@ def place_trademark(im, trademark, font, wm_loc_num):
 	return im
 
 def get_wm_loc_num():
-	print "Enter a location to place the watermark on the image: (1-9)"
-	interface = "  locations: \n  1 | 2 | 3 \n ----------- \n  4 | 5 | 6 \n ----------- \n  7 | 8 | 9 "
+	print "Select where to place watermark on image:"
+	interface = "\n" + " 1 | 2 | 3 " + "\n" + "-----------" + "\n" + " 4 | 5 | 6 " + "\n" + "-----------" + "\n" + " 7 | 8 | 9 "
 	print interface
 	wm_loc_num = raw_input()
 	return wm_loc_num
 
 def main():
-	while True:
-		try:
-			im_path = "in/" + raw_input("Enter image path: in/")
-			im = Image.open(im_path)
-			im = im.convert("RGB")
-		except:
-			print "file does not exist!"
-			continue
-		break
-
-	wm_text = raw_input("Enter watermark text: ")
 	wm_loc_num = get_wm_loc_num()
-
-	# hardcoded for debugging
-	# wm_text = "hey there"
-	# wm_loc_num = "5"
-	# im_path = "in/meme.jpg"
-
-	W = im.getbbox()[2]
-	font_size = int(W * 0.03)
-	font = ImageFont.truetype('utils/HelveticaNeue.dfont', font_size)
+	im_path = ("in/meme.jpg")
+	wm_text = ("@drunkentimes")
+	font = ImageFont.truetype('utils/HelveticaNeue.dfont', 20)
+	im = Image.open(im_path)  
 	im = place_trademark(im, wm_text, font, wm_loc_num)
 	im.save("out/meme.jpg")
-	print "Watermark added!"
 
 main()
