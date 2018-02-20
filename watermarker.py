@@ -69,6 +69,6 @@ def main():
 		font = ImageFont.truetype('utils/HelveticaNeue.dfont', font_size)
 		im = place_trademark(im, wm_text, font, wm_loc_num)
 		im.save("out/" + str(im_path))
-		print "Watermark added!"
+		print "Watermark added to " + str(im_path) 
 
 main()

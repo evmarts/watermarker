@@ -31,17 +31,31 @@ Run the script:
 
 ## Examples
 
-Suppose we have the following image we would like to watermark with our usersname, *@userhandle*:
+Suppose we have the following images we would like to watermark with our usersname, *@userhandle*:
 
-<img src="./figs/meme_clean.jpg" width="200px" alt=""> 
+<img src="./figs/meme0_clean.jpg" width="200px" alt=""> <img src="./figs/meme1_clean.jpg" width="200px" alt="">
 
-After placing the image of the text in the ```in/``` directory, we can run the script:
+After placing the images of the text in the ```in/``` directory, we can run the script:
+
+~~~
+ evanmartin$ python watermarker.py
+Enter watermark text: @userhandle
+Enter a location to place the watermark on the image: (1-9)
+  locations: 
+  1 | 2 | 3 
+ ----------- 
+  4 | 5 | 6 
+ ----------- 
+  7 | 8 | 9 
+4
+Watermark added to meme0.jpg
+Watermark added to meme1.jpg
+~~~
+
+<img src="./figs/meme0_marked.jpg" width="200px" alt=""> <img src="./figs/meme1_marked.jpg" width="200px" alt="">
 
 
 ## Authors
 
 Evan Martin
 
-## Acknowledgments
-
-* Tesseract Open Source OCR Engine
