@@ -8,7 +8,7 @@ The sharing of images on social media platforms has become notorious for the rec
 
 A common strategy is for the original poster to watermark their userhandle in their image to retain some credit for their content:
 
-<img src="./figs/meme0_marked.jpg" width="200px" alt="">
+<img src="./figs/meme0_marked.jpg" width="512px" alt="">
 
 
 ## Getting Started
@@ -52,7 +52,7 @@ Watermark added to meme0.jpg
 Watermark added to meme1.jpg
 ~~~
 
-<img src="./figs/meme0_marked.jpg" width="200px" alt=""> <img src="./figs/meme1_marked.jpg" width="200px" alt="">
+<img src="./figs/meme0_marked.jpg" width="313px" alt=""> <img src="./figs/meme1_marked.jpg" width="313px" alt="">
 
 
 ## Authors
