@@ -6,9 +6,7 @@ The goal of this project is to automate the process of adding a simple watermark
 
 The sharing of images on social media platforms has become notorious for the recycling of content amongst their users. If a user has posted an image that has gained popularity, other users will see the success of the image and post it to their own account in hopes of attracting more followers to their account. This is usually done without credit to the original user. 
 
-A common strategy is for the original poster to watermark their userhandle in their image to retain some credit for their content:
-
-<img src="./figs/meme0_marked.jpg" width="512px" alt="">
+A common strategy is for the original poster to watermark their userhandle in their image to retain some credit for their content.
 
 
 ## Getting Started
