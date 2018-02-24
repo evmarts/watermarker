@@ -52,7 +52,7 @@ Enter a location to place the watermark on the image: (1-9)
   7 | 8 | 9 
 4
 Watermark added to meme0.jpg
-Watermark added to meme1.jpg
+Watermark added to meme1.jpg.jpg
 Watermark added to meme2.jpg
 Watermark added to meme3.jpg
 Watermark added to meme4.jpg
